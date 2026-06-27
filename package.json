@@ -1,0 +1,18 @@
+{
+  "name": "edgx-studio",
+  "version": "3.0.0",
+  "description": "EDGX Studio — dual-anchor broadcast engine + YouTube transcript proxy",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "node-cron": "^3.0.3",
+    "node-fetch": "^3.3.2",
+    "resend": "^3.2.0",
+    "youtube-transcript": "^1.2.1"
+  },
+  "engines": { "node": ">=18" }
+}
